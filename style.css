@@ -27,12 +27,12 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 /*  ----------- Utility Classes */
 
-
 .padded{    padding: 5%; }
-.padded{    padding: 10%;}
+.padded10{    padding: 10%;}
 .padded1{    padding: 1rem; }
 .padded2{    padding: 2rem; }
 
+.vh-20  { min-height: 20vh; }
 .vh-50  { min-height: 50vh; }
 .vh-60  { min-height: 60vh; }
 .vh-70  { min-height: 70vh; }
@@ -42,6 +42,8 @@ h1, h2, h3, h4, h5, h6, p, a{
 .text-left     { text-align: left;}
 .text-center   { text-align: center;}
 .text-right    { text-align: right;}
+
+
 
 /* ------------ Typography */
 
@@ -55,8 +57,34 @@ h1, h2, h3, h4{
     margin-bottom: 0.5rem;
 }
 
+p, li{
+    margin-bottom: 0.5rem;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(120, 120, 120);
+}
+
 .white-text{    color: white;   }
 
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+
+.fa-brands{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
 
 /* ------------ Background Images, Background */
 
