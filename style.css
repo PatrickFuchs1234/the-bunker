@@ -6,7 +6,7 @@
 
 /* Temporary styles */
 
-*{
+/* *{
     padding: 0.5rem;
     border: 1px solid rgb(140, 140, 140);
 }
@@ -21,12 +21,61 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 .bg-image{
     background-color:rgb(238, 213, 102);
-}
+} */
 
 /* End Temporary styles */
 
-.padding{
-    padding: 1rem;
+/*  ----------- Utility Classes */
+
+
+.padded{    padding: 5%; }
+.padded{    padding: 10%;}
+.padded1{    padding: 1rem; }
+.padded2{    padding: 2rem; }
+
+.vh-50  { min-height: 50vh; }
+.vh-60  { min-height: 60vh; }
+.vh-70  { min-height: 70vh; }
+.vh-80  { min-height: 80vh; }
+.vh-90  { min-height: 90vh; }
+
+.text-left     { text-align: left;}
+.text-center   { text-align: center;}
+.text-right    { text-align: right;}
+
+/* ------------ Typography */
+
+body{
+    font-family: 'Raleway', Sans-Serif;
 }
 
+h1, h2, h3, h4{
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
 
+.white-text{    color: white;   }
+
+
+/* ------------ Background Images, Background */
+
+.bg-image{
+    background-color: #24282B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-image-roof      { background-image: url(/images/the-bunker-5.jpg);  }
+.bg-image-bed       { background-image: url(/images/the-bunker-1.jpg);  }
+.bg-image-hall      { background-image: url(/images/the-bunker-3.jpg);  }
+.bg-image-libary    { background-image: url(/images/the-bunker-4.jpg);  }
+.bg-image-chair     { background-image: url(/images/the-bunker-2.jpg);  }
+.bg-image-bedsheet  { background-image: url(/images/the-bunker-7.jpg);  }
+.bg-image-map       { background-image: url(/images/the-bunker-6.png);  }
+
+.bg-dark{
+    background-color: #24282B;
+    color: white;
+}

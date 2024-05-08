@@ -5,6 +5,11 @@
         <!-- title for SEO and browser tabs -->
         <title> The Bunker Hotel Sydney</title>
 
+        <!-- Google Font Raleway -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
         <!-- Font awsome stylesheet -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -17,41 +22,45 @@
 
     <!-- ----------------------------Body section -->
     <body>
-        <header class="bg-image bg-roof">
-            <h1> The Bunker</h1>
+        <header class="bg-image bg-image-roof vh-70 grid-middle">
+            <div class="col-12 text-center">
+                <h1 class="white-text"> The Bunker</h1>
+            </div>
         </header>
 
         <!-- Dark intro section -->
-        <section class="grid">
-            <div class="col-6 bg-image"> </div>
-            <div class="col-6">
-                <h2> Lux.</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, rerum! Consectetur voluptates officiis, aliquam dolore cupiditate tempora laborum cumque tempore fugiat earum, possimus ducimus nobis maxime facere saepe itaque deleniti.</p>
-                <p>
-                    Deleniti, rerum! Consectetur voluptates officiis.
-                </p>
+        <section class="bg-dark vh-50 grid-middle">
+            <div class="col-12 grid-middle">
+                <div class="col-6 bg-image bg-image-bed"> </div>
+                <div class="col-6">
+                    <h2> Lux.</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, rerum! Consectetur voluptates officiis, aliquam dolore cupiditate tempora laborum cumque tempore fugiat earum, possimus ducimus nobis maxime facere saepe itaque deleniti.</p>
+                    <p>
+                        Deleniti, rerum! Consectetur voluptates officiis.
+                    </p>
+                </div>
             </div>
         </section>
 
         <!-- Opening banner -->
 
-        <section class="bg-image">
-            <h2> Opening Mid May</h2>
-            <h3> 2024</h3>
+        <section class="bg-image bg-image-hall vh-50">
+            <h2 class="white-text"> Opening Mid May</h2>
+            <h3 class="white-text"> 2024</h3>
         </section>
 
-        <!-- Features / about blocks -->
+        <!-- Features  about blocks -->
 
         <section class="grid">
             <div class="col-6">
                 <h2> Lobby Dreams</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum inventore perspiciatis cum dicta non. Totam enim et, ipsa odit optio alias officia quis, doloremque sequi eum iusto nihil officiis ipsum!</p>
             </div>
-            <div class="col-6 bg-image"></div>
+            <div class="col-6 bg-image bg-image-libary vh-50"></div>
         </section>
 
         <section class="grid">
-            <div class="col-6 bg-image"></div>
+            <div class="col-6 bg-image bg-image-chair vh-50"></div>
             <div class="col-6">
                 <h2> The Bunker Bar</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum inventore perspiciatis cum dicta non. Totam enim et, ipsa odit optio alias officia quis, doloremque sequi eum iusto nihil officiis ipsum!</p>
@@ -63,13 +72,13 @@
                 <h2> Fall in Love</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum inventore perspiciatis cum dicta non. Totam enim et, ipsa odit optio alias officia quis, doloremque sequi eum iusto nihil officiis ipsum!</p>
             </div>
-            <div class="col-6 bg-image"></div>
+            <div class="col-6 bg-image bg-image-bedsheet vh-50"></div>
         </section>
 
         <!-- Social Links -->
-        <section class="bg-image">
+        <section class="bg-image bg-image-roof">
             <div>
-                <h2> Hit us up on socials</h2>
+                <h2 class="white-text"> Hit us up on socials</h2>
                 <nav>
                     <a href="#"> <i class="fa-brands fa-pinterest-p"></i></a>
                     <a href="#"> <i class="fa-brands fa-instagram"></i></a>
@@ -80,12 +89,12 @@
         </section>
 
         <!-- Map -->
-        <section class="bg-image bg-map">
+        <section class="bg-image bg-image-map vh-50">
             <a href="#"> Get Directions</a>
         </section>
 
         <!-- Footer -->
-        <footer class="grid">
+        <footer class="grid bg-dark vh-50">
             <div class="col-6">
                 <h2 class="logo"> The Bunker</h2>
             </div>
@@ -95,11 +104,11 @@
                 <p> <a href="mailto:hello@thebunker.com">hello@thebunker.com</a></p>
                 <p> <a href="tel:180055555">1800 THE BUNKER</a></p>
             </div>
-            <div class="col-12">
-                Copyright 2024 ©
-            </div>
-        </footer>
 
+        </footer>
+        <div class="col-12">
+            <p>Copyright 2024 ©</p>
+        </div>
 
 
     </body>
