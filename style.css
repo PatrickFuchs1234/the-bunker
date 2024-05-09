@@ -107,3 +107,22 @@ h2{
     background-color: #24282B;
     color: white;
 }
+
+.social-banner { background-position: 50% 17%;}
+
+
+@media (max-width: 48em) {
+
+.hide_sm{ display: none;}
+.flex-flip_sm{ flex-direction: column-reverse;}
+
+footer h4, footer a{
+    display: block;
+    text-align: left;
+}
+
+.social-banner {
+    background-image: none; 
+    background-color: #1C2A2C;
+}
+}
