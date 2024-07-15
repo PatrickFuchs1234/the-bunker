@@ -64,6 +64,12 @@ h2{
     margin-left: 1rem;
 }
 
+.copyright{
+    font-size: 0.8;
+    opacity: 0.8;
+    margin-bottom: -0.5rem;
+}
+
 /* ------------ Background Images, Background */
 
 .bg-image{
@@ -98,6 +104,7 @@ h2{
 
 .hide_sm{ display: none;}
 .flex-flip_sm{ flex-direction: column-reverse;}
+.sm-padded-lg {padding: 10%;}
 
 footer h4, footer a{
     display: block;
