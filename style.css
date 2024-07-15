@@ -4,33 +4,13 @@
     box-sizing: border-box;
 }
 
-/* Temporary styles */
-
-/* *{
-    padding: 0.5rem;
-    border: 1px solid rgb(140, 140, 140);
-}
-
-html, body{
-    border: none;
-}
-
-h1, h2, h3, h4, h5, h6, p, a{
-    border: 1px solid rgb(177, 45, 45);
-}
-
-.bg-image{
-    background-color:rgb(238, 213, 102);
-} */
-
-/* End Temporary styles */
-
 /*  ----------- Utility Classes */
 
 .padded{    padding: 5%; }
 .padded10{    padding: 10%;}
 .padded1{    padding: 1rem; }
 .padded2{    padding: 2rem; }
+
 
 .vh-20  { min-height: 20vh; }
 .vh-50  { min-height: 50vh; }
@@ -42,8 +22,6 @@ h1, h2, h3, h4, h5, h6, p, a{
 .text-left     { text-align: left;}
 .text-center   { text-align: center;}
 .text-right    { text-align: right;}
-
-
 
 /* ------------ Typography */
 
@@ -106,6 +84,11 @@ h2{
 .bg-dark{
     background-color: #24282B;
     color: white;
+}
+
+
+.bg-padded {
+    padding-bottom: 30%;
 }
 
 .social-banner { background-position: 50% 17%;}
