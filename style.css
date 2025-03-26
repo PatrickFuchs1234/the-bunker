@@ -8,6 +8,14 @@
 [class*=col] { padding: 0; }
 [class*=grid] { margin: 0; }
 
+/* ------------------------ Font Styles ------------------------------- */
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Unterstützt Gewichtungen von 100 bis 900 */
+    font-style: normal;
+}
+
 /*  ----------- Utility Classes */
 
 .padded{    padding: 5%; }
